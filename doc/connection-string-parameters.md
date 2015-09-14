@@ -98,6 +98,15 @@ Parameter keywords are case-insensitive.
     </tr>
 
     <tr>
+      <td>Persist Security Info</td>
+      <td>
+        Whether security-sensitive information, such as the password, is not returned as part of the connection if
+        the connection is open or has ever been in an open state.
+      </td>
+      <td>false</td>
+    </tr>
+
+    <tr>
       <td>Kerberos Service Name</td>
       <td>
         The Kerberos service name to be used for authentication.
